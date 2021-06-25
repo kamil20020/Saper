@@ -1,0 +1,7 @@
+*.ttf
+bin/
+obj/
+*.dll
+*.cbp
+*.depend
+*.layout
