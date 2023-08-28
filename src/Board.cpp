@@ -18,7 +18,7 @@ Board::Board(shared_ptr <RenderWindow> window1): window(window1){
 
 void Board::startState(int howMuchTilesInX1, int howMuchTilesInY1, int howMuchMines1, int tilesWidth1, int tilesHeight1){
 
-    actualState = running;
+    actualState = "Board";
 
     boardEnded = false;
 
@@ -299,11 +299,11 @@ void Board::events(Event event){
 
         if(Keyboard::isKeyPressed(Keyboard::Escape)){
 
-            actualState = closeState;
+            actualState = "Close";
         }
     }
 
-    if(actualState == running && boardEnded == false){
+    if(actualState == "Board" && boardEnded == false) {
 
         for(int i=0; i < tiles.size(); i++){
 

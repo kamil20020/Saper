@@ -1,4 +1,5 @@
 #include "InfoBox.h"
+#include <iostream>
 
 using namespace sf;
 using namespace std;
@@ -18,6 +19,8 @@ InfoBox::InfoBox(shared_ptr <RenderWindow> &window1, const Color &color,  float 
     text.setFillColor(Color::Black);
     text.setPosition(background.getPosition().x + background.getSize().x/2 - text.getGlobalBounds().width/2 - 5,
                      background.getPosition().y + background.getSize().y/2 - text.getGlobalBounds().height/2 - 10);
+
+    cout << "AAA";
 
 }
 

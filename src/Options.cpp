@@ -16,12 +16,12 @@ Options::Options(shared_ptr <RenderWindow> window1, shared_ptr <Board> board1):
 
     actualDifficult = easy;
 
-    actualState = running;
+    actualState = "Board";
 }
 
 void Options::startState(){
 
-    actualState = running;
+    actualState = "Options";
 }
 
 void Options::resetState(){
@@ -45,7 +45,7 @@ void Options::events(Event event){
 
         if(Keyboard::isKeyPressed(Keyboard::Escape)){
 
-            actualState = closeState;
+            actualState = "Close";
         }
     }
 
@@ -94,7 +94,7 @@ void Options::resetBoard(){
 
     setBoardsParameters(actualDifficult);
 
-    actualState = closeState;
+    actualState = "Close";
 }
 
 void Options::setBoardsParameters(int gameDifficult1){

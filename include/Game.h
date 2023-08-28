@@ -17,11 +17,11 @@ class Game{
 
     shared_ptr <Event> event;
 
-    shared_ptr <GameStatesControler> gameStatesControler;
+    shared_ptr <GameStatesController> gameStatesControler;
 
-    map <string, shared_ptr <GameStatesControler>> gameStates;
+    map <string, shared_ptr <GameStatesController>> gameStates;
 
-    shared_ptr <GameStatesControler> actualState;
+    shared_ptr <GameStatesController> actualState;
 
     public:
 

@@ -6,7 +6,7 @@
 #include <vector>
 #include <map>
 
-#include "GameStatesControler.h"
+#include "GameStatesController.h"
 #include "Tile.h"
 #include "Button.h"
 #include "InfoBox.h"
@@ -14,7 +14,7 @@
 using namespace sf;
 using namespace std;
 
-class Board: public GameStatesControler{
+class Board: public GameStatesController{
 
     enum extraStates{lost = 3, won = 4};
 

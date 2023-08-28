@@ -38,9 +38,9 @@ void Game::gameLoop(){
             events();
         }
 
-        if(actualState -> actualState == closeState){
+        if(actualState -> actualState == "Close") {
 
-            actualState -> actualState = running;
+            actualState->actualState = "Board";
 
             actualState = gameStates[actualState -> nextState];
         }

@@ -7,7 +7,7 @@
 #include <map>
 
 #include "Button.h"
-#include "GameStatesControler.h"
+#include "GameStatesController.h"
 #include "Board.h"
 
 using namespace sf;
@@ -17,7 +17,7 @@ enum gameDifficults{easy = 0, medium, hard};
 
 class Button;
 
-class Options: public GameStatesControler{
+class Options: public GameStatesController{
 
     shared_ptr <RenderWindow> window;
 
