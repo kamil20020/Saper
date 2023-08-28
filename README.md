@@ -1,5 +1,5 @@
 # Saper (08.2020)
-Gra saper ze standardowymi funkcjami. Saper to popularna gra jednoosobowa polegająca na tym, że użytkownik (tak jak prawdziwy saper) musi rozminować całe pole o zadanej wielkości, ale dodatkowo jeszcze posiada informacje o całkowitej liczbie postawionych min. Na początku losowane są pozycje min, a następnie ustalane odpowiednie numery pól. Numerem pola jest liczba sąsiadujących min z tym polem np. jeśli dane pole sąsiaduje z 3 minami, wtenczas pole to będzie przyjmowało liczbę 3.
+Gra saper ze standardowymi funkcjami. Saper to popularna gra jednoosobowa polegająca na tym, że użytkownik (tak jak prawdziwy saper) musi rozminować całe pole o zadanej wielkości, ale dodatkowo jeszcze posiada informacje o całkowitej liczbie postawionych min. Na początku losowane są pozycje min, a następnie ustalane odpowiednie numery pól. Numerem pola jest liczba sąsiadujących min z tym polem np. jeśli dane pole sąsiaduje z 3 minami, wtenczas pole to będzie przyjmowało liczbę 3. 
 
 ## Wymagania funkcjonalne:
 * Wybór poziomu trudności (rozmiar planszy oraz liczba min),
